@@ -1,0 +1,17 @@
+{
+    "name": "ohmyfood",
+    "version": "1.0.0",
+    "description": "Ohmyfood Mobile First application",
+    "main": "index.js",
+    "scripts": {
+      "sass": "sass --watch ./sass/main.scss:./assets/css/style.css --style compressed",
+      "prefix": "postcss ./assets/css/style.css --use autoprefixer -d ./assets/css/prefixed/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/KarineGodelar/projet4_animations_CSS.git"
+    },
+    "author": "KarineGodelar",
+    "license": "ISC",
+    "browserslist": "last 4 versions"
+  }

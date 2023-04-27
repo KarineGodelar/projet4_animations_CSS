@@ -1,0 +1,17 @@
+.footer {
+
+    &__content {
+       
+        &--with-icons{
+            font-family: 'Roboto', sans-serif;
+            color: black;
+            font-weight: 500;
+        }
+
+        &--without-icons{
+            font-family: 'Roboto', sans-serif;
+            color: black;
+            font-weight: 400;   
+        }
+    }
+}
