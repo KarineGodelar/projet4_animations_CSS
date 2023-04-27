@@ -1,0 +1,8 @@
+
+.restaurants{
+    background-color: $light-grey;
+    padding: $layout-padding;
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+}
