@@ -1,8 +1,43 @@
+.main-container{
+    animation: delay-main 0ms $main-delay both;
+
+
+}
+
+.location-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eaeaea;
+    height: 50px;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    background-color: $light-grey;
+    height: 200px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.fonctionnement{
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px;
+}
 
 .restaurants{
     background-color: $light-grey;
-    padding: $layout-padding;
+    padding: 60px $layout-padding;
     display:grid;
     grid-template-columns: 1fr;
     gap: 18px;
+    
 }
+
+
