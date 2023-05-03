@@ -1,0 +1,62 @@
+.menu__dishcard {
+    background-color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin: 12px;
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    box-sizing: border-box;
+
+    &--text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 12px;
+        width: 40%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+
+    }
+
+    &--price {
+        padding: 12px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        width: 40%;
+        overflow: hidden;
+
+        & p {
+            font-weight: 700;
+        }
+
+    }
+
+    &--check {
+        height: 69px;
+        border-radius: 0px 15px 15px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $light-green;
+        width: 17%;
+        color: white;
+        position: absolute;
+        right: 0px;
+        margin-right: 22px;
+        opacity: 0;
+
+    }
+
+    &:hover>.menu__dishcard--price {
+        animation: translate_price 250ms both;
+    }
+
+    &:hover>.menu__dishcard--check {
+        animation: translate_check 250ms both;
+    }
+
+
+}
