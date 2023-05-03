@@ -1,0 +1,21 @@
+@keyframes translation_page {
+	0% {
+		transform: translateX(-9999px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+
+@keyframes anim_loader {
+	25% {
+		transform:translateY(25%) ;
+	}
+
+	75% {
+		transform: translateY(75%);
+	}
+
+
+}

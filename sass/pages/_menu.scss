@@ -1,0 +1,29 @@
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    border-radius: 40px 40px 0px 0px;
+    position: absolute;
+    top: 0px;
+    margin-top: 283px;
+    width: 100%;
+}
+
+.top-image {
+    & img {
+        width: 100%;
+    }
+}
+
+.restaurant-title {
+    margin: 20px;
+    display: flex;
+
+    & h1 {
+        font-family: 'Shrikhand', cursive;
+        color: black;
+        font-weight: 400;
+        font-size: 28px;
+        padding-top: 14px;
+    }
+}
