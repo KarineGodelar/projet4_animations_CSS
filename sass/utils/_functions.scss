@@ -4,22 +4,47 @@
 	}
 
 	100% {
-		transform: translateY(0px);
+		transform: translateX(0px);
 	}
 }
 
 
 @keyframes anim_loader {
-	25% {
-		transform: translateY(25%);
+	0% {
+		transform: translateX(300%);
 	}
 
-	75% {
-		transform: translateY(75%);
+	100% {
+		transform: translateX(0%);
 	}
-
 
 }
+
+@keyframes anim_loader_title {
+	0% {
+		transform: translateX(10%);
+	}
+
+	100% {
+		transform: translateX(0%);
+	}
+
+}
+
+@keyframes opacity {
+	0% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+
+}
+
 
 @keyframes translate_check {
 	0% {

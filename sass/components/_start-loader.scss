@@ -1,0 +1,60 @@
+$size :100vh;
+$delay : 200ms;
+
+.start-container {
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: $size;
+    width: $size;
+    padding-left: 50px;
+
+    &__title {
+
+        font-family: 'Shrikhand', cursive;
+        color: $purple;
+        font-weight: 800;
+        font-size: 48px;
+        padding-top: 30px;
+        padding-bottom: 12px;
+        line-height: 15px;
+        animation: anim_loader_title 700ms 4 alternate-reverse ease-out;
+    }
+
+    &__cube {
+        height: 100px;
+        width: 100px;
+        border-radius: 5px;
+        animation: anim_loader 4 700ms alternate-reverse ease-out;
+
+        &--light-green {
+            background-color: $light-green;
+        }
+
+        &--dark-green {
+            background-color: $dark-green;
+            animation-delay: $delay;
+        }
+
+        &--light-blue {
+            background-color: $light-blue;
+            animation-delay: 2*$delay;
+        }
+
+        &--dark-blue {
+            background-color: $dark-blue;
+            animation-delay: 3*$delay;
+        }
+
+        &--purple {
+            background-color: $purple;
+            animation-delay: 4*$delay;
+        }
+    }
+
+    animation: opacity 2500ms both;
+
+}
