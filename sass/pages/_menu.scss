@@ -49,3 +49,12 @@
     }
     
 }
+$anim-delay:350ms;
+.menu {
+    animation: translate_dish 1000ms both ease-in-out;
+    @for $i from 1 through 3 {
+        &--#{$i} {
+            animation-delay: $anim-delay*$i;
+        }
+    }
+}
