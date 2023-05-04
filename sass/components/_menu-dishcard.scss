@@ -13,10 +13,16 @@
         flex-direction: column;
         justify-content: space-between;
         padding: 12px;
-        width: calc(60%);
+        width: calc(80%);
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
+
+        &:hover {
+        width: calc(60%);
+
+        }
+
     }
 
     &--price {
@@ -44,7 +50,7 @@
         color: white;
         position: absolute;
         right: 0px;
-        margin-right: 22px;
+        margin-right: 12px;
         opacity: 0;
 
     }
