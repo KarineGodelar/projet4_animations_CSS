@@ -11,6 +11,7 @@ $delay : 200ms;
     height: $size;
     width: $size;
     padding-left: 50px;
+    z-index: 2;
 
     &__title {
 
@@ -55,6 +56,6 @@ $delay : 200ms;
         }
     }
 
-    animation: opacity 2500ms both;
+    animation: opacity 2500ms forwards;
 
 }

@@ -1,7 +1,7 @@
 .body-container {
     display: flex;
     flex-direction: column;
-    animation: translation_page 3000ms backwards ease-in-out;
+    animation: translation_page 3000ms forwards ease-in-out;
 }
 
 .location-search{
