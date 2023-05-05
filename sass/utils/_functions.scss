@@ -11,11 +11,11 @@
 
 @keyframes anim_loader {
 	0% {
-		transform: translateX(300%);
+		transform: translateX(30vh);
 	}
 
 	100% {
-		transform: translateX(0%);
+		transform: translateX(0vh);
 	}
 
 }
@@ -48,38 +48,69 @@
 
 @keyframes translate_check {
 	0% {
-		transform: translateX(100px);
+		transform: translateX(30%);
 		opacity: 0;
 	}
 	25% {
-		transform: translateX(75px);
+		transform: translateX(22.5%);
 		opacity: 1;
 	}
 	50% {
-		transform: translateX(50px);
+		transform: translateX(15%);
+		opacity: 1;
+	}
+	75% {
+		transform: translateX(7.5%);
 		opacity: 1;
 	}
 	100% {
-		transform: translateX(0px);
+		transform: translateX(0%);
 		opacity: 1;
 	}
 }
 
 @keyframes translate_price {
 	0% {
-		transform: translateX(0px);
+		transform: translateX(0%);
 	}
 	25% {
-		transform: translateX(-25px);
+		transform: translateX(-12.5%);
 	}
 	50% {
-		transform: translateX(-50px);
+		transform: translateX(-25%);
+	}
+
+	75% {
+		transform: translateX(-37.5%);
 	}
 
 	100% {
-		transform: translateX(-100px);
+		transform: translateX(-50%);
 	}
 }
+
+
+
+@keyframes translate_price_desktop {
+	0% {
+		transform: translateX(0%);
+	}
+	25% {
+		transform: translateX(-6.25%);
+	}
+	50% {
+		transform: translateX(-12.5%);
+	}
+
+	75% {
+		transform: translateX(-18.75%);
+	}
+
+	100% {
+		transform: translateX(-25%);
+	}
+}
+
 
 @keyframes translate_dish {
 	0% {

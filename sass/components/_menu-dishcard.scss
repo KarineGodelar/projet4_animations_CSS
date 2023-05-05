@@ -19,7 +19,7 @@
         text-overflow: ellipsis;
 
         &:hover {
-        width: calc(60%);
+            width: calc(60%);
 
         }
 
@@ -52,11 +52,18 @@
         right: 0px;
         margin-right: 12px;
         opacity: 0;
+        @media (min-width:1025px){
+            width: 8%;
+        }
 
     }
 
     &:hover>.menu__dishcard--price {
         animation: translate_price 250ms both;
+
+        @media (min-width:1025px) {
+            animation: translate_price_desktop 250ms both;
+        }
     }
 
     &:hover>.menu__dishcard--check {
