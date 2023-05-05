@@ -35,11 +35,27 @@
 
 .restaurants{
     background-color: $light-grey;
-    padding: 60px $layout-padding;
-    display:grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    &__title {
+        margin: 52px 0px 4px $layout-padding;
+        @media (min-width:1025px){
+            margin-left: 35px;
+        }
+    }
+}
+
+.restaurant-cards-container {
+    padding: $layout-padding;
+    display: flex;
+    flex-direction: column;
     gap: 18px;
-    
+
+    @media (min-width:1025px){
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 }
 
 
