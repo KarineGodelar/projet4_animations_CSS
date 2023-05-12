@@ -18,6 +18,12 @@
         white-space: nowrap;
         text-overflow: ellipsis;
 
+        & h3, p {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
         &:hover {
             width: calc(60%);
 
